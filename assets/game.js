@@ -1,9 +1,8 @@
 
 // use console.log to audit program's integrity
-// $( document ).ready(function(){
-
     //create a random number to be matched by the gamer/player,
 //  by using Math.random and  Math.floor to round the random number to an integer
+$( document ).ready(function(){
 var matchNumber=Math.floor(Math.random()*101+19)
 console.log(matchNumber);
 $('#match').text(matchNumber);
