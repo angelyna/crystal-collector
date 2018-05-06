@@ -1,0 +1,134 @@
+@media only screen and (min-width: 0px) and (max-width: 1400px){
+
+*{box-sizing: border-box;
+    max-width: 100%;
+    max-height: 10%;
+    margin: auto;
+}
+
+.container{
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+body{
+	background: url("images/crystal.jpg") no-repeat center top fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron{
+	text-align: center;
+    margin-top: 0.5vh;
+    background-color: transparent;
+    border-color:transparent; 
+    margin-left: auto;
+    margin-right:auto;
+    display: block;
+    width: 80vw;
+    padding: 3vh 2vw 0vh 2vw;
+    margin: 0%;
+    color: fuchsia;
+    text-align: -webkit-left;
+}
+
+.panel-default>.panel-heading{
+    background-color: transparent;
+    border-color: blue;
+    width: 80vw;
+    height: 5%;
+    float: right;
+    margin-right: 0%;
+    text-align: left;
+}
+
+.panel-title{
+    margin: 0.5vh 0vw 0vh 0vw;
+    font-style: famous;
+    color: darkblue;
+    font-size: 3.5vh;
+}
+
+h2{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+h4{
+    margin-top: 0.1vh;
+    margin-bottom: 0.1vh;
+}
+.panel-body{
+    width: 80vw;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 2.5vh; 
+    margin-left: 10%;
+    background: transparent;
+    text-align: center;
+}
+
+#p{
+    text-align: left;
+    color: darkblue;
+}
+
+#match{
+    text-align: left;
+    margin-right: 35vw
+}
+
+#wins{
+    text-align: center;
+    margin-right: 3%;
+}
+
+#losses{
+    text-align: right;
+    margin-right: 0vw;
+}
+
+panelstyle.panel.panel-default{
+    width:70%;
+}
+#panelStyle{
+	float:right;
+    margin: 0vh 0vw 2.5vh 92.25vw;
+    background: transparent;
+}
+
+.panel-default{
+    border-color: blue;
+    color: fuchsia;
+}
+
+.Crystal{
+    height: 6vh;
+    width: 6vw;
+    margin: auto;
+    display:inline-flex;
+    margin-left: 3%;
+
+}
+
+#ruby{
+    border: 0.5vh solid rgb(160, 5, 13);
+}
+
+#sapphire{
+    border: 0.5vh solid rgb(53, 24, 155);
+}
+
+#gold{
+    border: 0.5vh solid rgb(241, 226, 12);
+}
+
+#emerald{
+    border: 0.5vh solid rgb(4, 53, 23);
+}
+
+}
